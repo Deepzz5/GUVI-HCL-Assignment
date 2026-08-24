@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepika | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Deepika</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="hello">Hello, I'm</p>
+            <h1>Deepika</h1>
+            <h2>Data Analyst</h2>
+            <p>
+                I love working with data, creating visualizations
+                and finding useful insights from data.
+            </p>
+            <a href="#projects" class="main-button">
+                View My Projects
+            </a>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-box">
+            <div class="about-text">
+                <h3>Hi, I'm Deepika 👋</h3>
+                <p>
+                    I am a Computer Science and Engineering student
+                    with a strong interest in Data Analytics.
+                </p>
+                <p>
+                    I enjoy analyzing data, creating dashboards and
+                    converting raw data into meaningful information.
+                </p>
+                <p>
+                    I am currently developing my skills in Python,
+                    SQL, Power BI and data visualization.
+                </p>
+            </div>
+            <div class="about-info">
+                <div>
+                    <h3>🎓</h3>
+                    <p>CSE Student</p>
+                </div>
+                <div>
+                    <h3>📊</h3>
+                    <p>Data Analytics</p>
+                </div>
+                <div>
+                    <h3>💡</h3>
+                    <p>Problem Solver</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-description">
+            Technologies and tools I use for data analysis
+        </p>
+        <div class="skills-container">
+            <div class="skill-card skill-python">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>Programming and Data Analysis</p>
+            </div>
+            <div class="skill-card skill-sql">
+                <div class="skill-icon">🗄️</div>
+                <h3>SQL</h3>
+                <p>Database and Data Queries</p>
+            </div>
+            <div class="skill-card skill-powerbi">
+                <div class="skill-icon">📊</div>
+                <h3>Power BI</h3>
+                <p>Dashboard and Visualization</p>
+            </div>
+            <div class="skill-card skill-pandas">
+                <div class="skill-icon">🐼</div>
+                <h3>Pandas</h3>
+                <p>Data Cleaning and Analysis</p>
+            </div>
+            <div class="skill-card skill-excel">
+                <div class="skill-icon">📗</div>
+                <h3>Excel</h3>
+                <p>Data Analysis and Reporting</p>
+            </div>
+            <div class="skill-card skill-ml">
+                <div class="skill-icon">🤖</div>
+                <h3>Machine Learning</h3>
+                <p>Prediction and Basic ML Models</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-description">
+            Some of the projects I have worked on
+        </p>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>🛒 Supermarket Sales Analysis</h3>
+                <p>
+                    Analyzed supermarket sales data to understand
+                    sales performance, customer behavior and
+                    product-wise sales.
+                </p>
+                <div class="technology">
+                    Python &nbsp; | &nbsp; Pandas &nbsp; | &nbsp; Matplotlib
+                </div>
+                <button onclick="showProject('Supermarket Sales Analysis')">
+                    View Project
+                </button>
+            </div>
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>🩺 Diabetes Prediction</h3>
+                <p>
+                    A machine learning project that predicts the
+                    possibility of diabetes using health-related
+                    data.
+                </p>
+                <div class="technology">
+                    Python &nbsp; | &nbsp; Pandas &nbsp; | &nbsp; Scikit-learn
+                </div>
+                <button onclick="showProject('Diabetes Prediction')">
+                    View Project
+                </button>
+            </div>
+            <div class="project-card">
+                <div class="project-number">03</div>
+                <h3>📈 Data Visualization Dashboard</h3>
+                <p>
+                    Created an interactive dashboard to represent
+                    important information using charts and
+                    visualizations.
+                </p>
+                <div class="technology">
+                    Power BI &nbsp; | &nbsp; Excel
+                </div>
+                <button onclick="showProject('Data Visualization Dashboard')">
+                    View Project
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-description">
+            Have a project or opportunity? Feel free to contact me.
+        </p>
+        <div class="contact-box">
+            <form id="contactForm">
+                <label>Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+                <label>Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+                <label>Message</label>
+                <textarea
+                    id="message"
+                    placeholder="Enter your message"
+                ></textarea>
+                <button type="submit">
+                    Send Message ✉️
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h3>Deepika</h3>
+        <p>Data Analyst | CSE Student</p>
+        <p class="copyright">
+            © 2026 Deepika. All Rights Reserved.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
